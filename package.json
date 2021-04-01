@@ -1,0 +1,25 @@
+{
+  "name": "puppeteer-robo-que-busca-vagas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolandmontalvan/puppeteer-robo-que-busca-vagas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rolandmontalvan/puppeteer-robo-que-busca-vagas/issues"
+  },
+  "homepage": "https://github.com/rolandmontalvan/puppeteer-robo-que-busca-vagas#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "puppeteer": "^8.0.0",
+    "readline-sync": "^1.4.10"
+  }
+}
