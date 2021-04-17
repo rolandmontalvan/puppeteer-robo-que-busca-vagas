@@ -8,7 +8,7 @@ const puppeteer = require('puppeteer');
   const page = await browser.newPage();
   await page.goto('https://www.gupy.io/login/');
 
-  const hrefs = await page.$$eval('a', as => as.map(a => a.href));
+  const hrefs = await page.$$eval('href', as => as.map(a => a.href));
   
   console.log(hrefs.length)
   console.log(hrefs)
