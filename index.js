@@ -57,7 +57,7 @@ scrape().then((value) => {
   console.log(value)
 })
 */
-/*
+
 const puppeteer = require('puppeteer')
 let scrape = async () => {
   const browser = await puppeteer.launch()
@@ -75,4 +75,3 @@ let scrape = async () => {
 scrape().then((value) => {
   console.log(value)
 })
-*/
